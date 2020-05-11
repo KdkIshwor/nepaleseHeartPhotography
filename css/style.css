@@ -150,8 +150,7 @@ body {
 
 .btn__2 {
   background-color: rgba(0, 0, 0, 0.2);
-  color: #fff;
-  margin-bottom: 5rem; }
+  color: #fff; }
   .btn__2:hover {
     transform: translateY(0px);
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); }
@@ -259,7 +258,7 @@ body {
 
 .section-features {
   padding: 20rem 0;
-  background-image: linear-gradient(to right bottom, rgba(109, 155, 102, 0.8), rgba(129, 165, 153, 0.8));
+  background-image: linear-gradient(to right bottom, rgba(109, 155, 102, 0.6), rgba(129, 165, 153, 0.6));
   background-size: cover;
   transform: skewY(-7deg);
   margin-top: -10rem; }
