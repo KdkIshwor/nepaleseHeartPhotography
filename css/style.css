@@ -289,11 +289,14 @@ body {
 .feature-box {
   background-color: rgba(255, 255, 255, 0.8);
   font-size: 1.5rem;
-  padding: 2rem;
+  padding: 2.5rem;
   text-align: center;
   border-radius: 3px;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
   transition: transform .3s; }
+  @media only screen and (max-width: 50em) {
+    .feature-box {
+      padding: 2rem; } }
   .feature-box__icon {
     font-size: 6rem;
     margin-bottom: .5rem;
@@ -301,6 +304,9 @@ body {
     background-image: linear-gradient(#6d9b66, #81a599);
     -webkit-background-clip: text;
     color: transparent; }
+    @media only screen and (max-width: 50em) {
+      .feature-box__icon {
+        margin-bottom: 0; } }
   .feature-box:hover {
     transform: translate(-1.5rem) scale(1.03); }
 
@@ -320,6 +326,9 @@ body {
   margin-top: -10rem; }
   .section-features > * {
     transform: skewY(7deg); }
+  @media only screen and (max-width: 50em) {
+    .section-features {
+      padding: 10rem 0; } }
 
 .connect {
   height: 10rem;
@@ -404,7 +413,7 @@ body {
 
 .header {
   height: 95vh;
-  background-image: linear-gradient(to right bottom, rgba(109, 155, 102, 0.8), rgba(129, 165, 153, 0.8)), url(../img/event.jpg);
+  background-image: linear-gradient(to right bottom, rgba(109, 155, 102, 0.8), rgba(129, 165, 153, 0.8)), url(../img/photographer.jpg);
   background-size: cover;
   background-position: top;
   position: relative; }
@@ -416,8 +425,8 @@ body {
     text-align: center; }
   .header__logo-1 {
     margin: 20px 20px;
-    height: 15rem;
-    width: 15rem;
+    height: 8rem;
+    width: 8rem;
     border-radius: 70%; }
 
 .navigation__checkbox {
