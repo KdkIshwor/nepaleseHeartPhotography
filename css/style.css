@@ -413,10 +413,25 @@ body {
 
 .header {
   height: 95vh;
-  background-image: linear-gradient(to right bottom, rgba(109, 155, 102, 0.8), rgba(129, 165, 153, 0.8)), url(../img/photographer.jpg);
-  background-size: cover;
-  background-position: top;
   position: relative; }
+  .header .bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: .8;
+    overflow: hidden;
+    margin-top: -7rem; }
+
+@media only screen and (max-width: 50em) {
+  .header .bg-video {
+    margin-top: -10rem; } }
+    .header .bg-video__content {
+      height: 100%;
+      width: 100%;
+      object-fit: cover; }
   .header__text-box {
     position: absolute;
     top: 50%;
@@ -424,10 +439,11 @@ body {
     transform: translate(-50%, -50%);
     text-align: center; }
   .header__logo-1 {
-    margin: 20px 20px;
-    height: 8rem;
-    width: 8rem;
-    border-radius: 70%; }
+    margin: 15px 15px;
+    height: 7.4rem;
+    width: 7.4rem;
+    border-radius: 70%;
+    z-index: 1; }
 
 .navigation__checkbox {
   display: none; }
