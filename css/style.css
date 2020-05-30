@@ -575,10 +575,10 @@ body {
     transform: translate(-50%, -50%);
     text-align: center; }
   .header__logo-1 {
-    margin: 15px 15px;
-    height: 7.4rem;
-    width: 7.4rem;
-    border-radius: 70%;
+    margin: 0 auto;
+    height: 15rem;
+    width: 15rem;
+    border-radius: none;
     z-index: 1; }
 
 .navigation__checkbox {
